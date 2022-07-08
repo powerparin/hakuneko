@@ -1,0 +1,13 @@
+import WordPressMangastream from './templates/WordPressMangastream.mjs';
+
+export default class LamiManga extends WordPressMangastream {
+
+    constructor() {
+        super();
+        super.id = 'manga689';
+        super.label = 'manga689';
+        this.tags = [ 'manga', 'webtoon', 'thai' ];
+        this.url = 'https://manga689.com/';
+        this.path = '/manga/list-mode/';
+    }
+}
